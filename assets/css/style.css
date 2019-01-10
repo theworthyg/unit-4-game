@@ -10,7 +10,7 @@ body {
 /* look up how to resize background */
 
 .background {
-    background-image: url("file:///Users/theworthyg/Desktop/unhbootcamp/Homework/unit-4-game/assets/images/thanosbg.png"), url("paper.gif");
+    background-image: url("file:///Users/theworthyg/Desktop/unhbootcamp/Homework/unit-4-game/assets/images/thanosbg.png");
     background-color: #cccccc; /* Used if the image is unavailable */
     height: 500px; /* You must set a specified height */
     background-position: center; /* Center the image */
