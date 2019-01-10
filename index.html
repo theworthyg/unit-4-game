@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Infinity Gauntlet Game</title>
+
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">	
+
+    <!-- css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+
+
+    <!-- javascript and jQuery -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+	
+</head>
+
+<!-- used bootstrap rows/col -->
+
+<body class="background">
+
+	<div class="row">
+		<div class="col-md-12 title">
+
+			Infinity Stone Collector
+
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-12 subtitles">
+
+    How to Play the Infinity Gauntlet Game:
+
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-12 instructions">
+			- Thanos will choose a random number at the start of the game.
+			<br/>
+			- There are four Infinity Stones below. By clicking on a Stone, you will add an amount of points to your total score.
+			<br/>
+			- You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.
+			<br/>
+			- The value of each Stone will be hidden until you click on it.
+			<br/>
+			- Every time the game starts, the values of each Stone will change.
+		</div>		
+	</div>
+	<div class="row">
+		<div class="col-md-12 stones">
+
+			<p class="play">Click on the Infinity Stones to Play!</p>
+			<br/>
+			<img src="assets/images/greenstone.png" id="green" width="100" height="100" alt="green stone"/>
+			<br/>
+			<img src="assets/images/purplestone.png" id="purple" width="100" height="100" alt="purple stone"/>
+			<br/>
+			<img src="assets/images/redstone.png" id="red" width="100" height="100" alt="red stone"/>
+			<br/>
+			<img src="assets/images/yellowstone.png" id="yellow" width="100" height="100" alt="yellow stone"/>
+
+		</div>
+		<div class="col-md-12 scoreCard">
+			<p class="wins-losses">Number to Win:</p> <span id="randomNumber" class="score"></span>	
+			<p class="wins-losses">Your Score:</p> <span id="totalScore" class="score"></span>	
+			<p class="wins-losses">Wins:</p> <span id="numberOfWins" class="score"></span>
+			<p class="wins-losses">Losses:</p> <span id="numberOfLosses" class="score"></span>		
+		</div>	
+	</div>
+</body>
+</html>
