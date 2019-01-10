@@ -8,8 +8,8 @@ body {
 /* look up how to resize background */
 
 .background {
-    background-image: url("unit-4-game/assets/images/thanosbg.png");
-    background-color: #cccccc; /* Used if the image is unavailable */
+    background-image: url(https://am24.akamaized.net/tms/cnt/uploads/2018/04/Infinity-War-Director-Reveals-Why-Thanos-Backstory-Was-Cut.jpg);
+    background-color: #8600bb; /* Used if the image is unavailable */
     height: 500px; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
