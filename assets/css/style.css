@@ -2,7 +2,7 @@
 
 body {
  
-    background-image: url("file:///Users/theworthyg/Desktop/unhbootcamp/Homework/unit-4-game/assets/images/thanosbg.png");
+    background-image: url(https://github.com/theworthyg/unit-4-game/blob/master/assets/images/thanosbg.png);
     width: 100%;
 
 }
@@ -10,7 +10,7 @@ body {
 /* look up how to resize background */
 
 .background {
-    background-image: url("file:///Users/theworthyg/Desktop/unhbootcamp/Homework/unit-4-game/assets/images/thanosbg.png");
+    background-image: url(https://github.com/theworthyg/unit-4-game/blob/master/assets/images/thanosbg.png);
     background-color: #cccccc; /* Used if the image is unavailable */
     height: 500px; /* You must set a specified height */
     background-position: center; /* Center the image */
@@ -90,7 +90,7 @@ body {
 	height: 700px;
     text-align: center;
     background-color: gold;
-    background-image: url(file:///Users/theworthyg/Desktop/unhbootcamp/Homework/unit-4-game/assets/images/Gauntlet.png);
+    background-image: url(https://github.com/theworthyg/unit-4-game/blob/master/assets/images/Gauntlet.png);
 }
 
 
